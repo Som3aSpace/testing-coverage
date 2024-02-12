@@ -73,7 +73,7 @@
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<configuration>
 					<excludes>
-<!--						<exclude>**/entity/*</exclude>-->
+						<exclude>**/entity/*</exclude>
 						<exclude>com/som3a/springboottesting/**/SpringBootTestingApplication.class</exclude>
 					</excludes>
 				</configuration>

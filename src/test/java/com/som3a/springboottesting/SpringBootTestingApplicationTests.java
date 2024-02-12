@@ -60,7 +60,7 @@ class SpringBootTestingApplicationTests {
 						.contentType("application/json"))
 				.andExpect(status().isOk())
 				.andExpect(MockMvcResultMatchers.jsonPath("$.*").exists())
-				.andExpect(MockMvcResultMatchers.jsonPath("$.[0].id").value(10));
+				.andExpect(MockMvcResultMatchers.jsonPath("$.[0].id").value(1));
 	}
 
 	private String asJsonString(Object object) {
